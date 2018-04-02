@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btDimenLargura">165dp</dimen>
+    <dimen name="btDimenAltura">50dp</dimen>
+    <dimen name="btDimenTxt18">18sp</dimen>
+    <dimen name="btDimenTxt16">17sp</dimen>
+</resources>

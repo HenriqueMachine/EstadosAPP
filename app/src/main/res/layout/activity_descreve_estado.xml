@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.simuladordecaixa.estadosapp.DescreveEstadoActivity">
+
+<RelativeLayout
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ScrollView
+        android:id="@+id/svDescribeState"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="22dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvScreenDescreveEstado"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Descrição"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/btDimenTxt16" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btReturnDescribeState"
+        android:layout_width="@dimen/btDimenLargura"
+        android:layout_height="@dimen/btDimenAltura"
+        android:layout_alignBottom="@+id/buttonExitDescription"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimaryDark"
+        android:text="VÍDEO "
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/btDimenTxt18" />
+
+    <Button
+        android:id="@+id/buttonExitDescription"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_toLeftOf="@+id/btReturnDescribeState"
+        android:layout_toStartOf="@+id/btReturnDescribeState"
+        android:background="@color/colorPrimaryDark"
+        android:text="VOLTAR"
+        android:textColor="@color/colorAccent" />
+</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

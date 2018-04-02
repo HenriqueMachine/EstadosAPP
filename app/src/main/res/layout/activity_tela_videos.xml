@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.simuladordecaixa.estadosapp.TelaVideosActivity">
+
+    <RelativeLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TextView
+            android:id="@+id/textViewTelaVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Título"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent" />
+
+        <WebView
+            android:id="@+id/webViewVideo"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="150dp" />
+
+        <Button
+
+            android:id="@+id/button"
+            android:layout_width="@dimen/btDimenLargura"
+            android:layout_height="@dimen/btDimenAltura"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="LISTA DE ESTADOS"
+            android:textSize="@dimen/btDimenTxt18"
+            android:textColor="@color/colorAccent"
+            android:background="@color/colorPrimaryDark"/>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
